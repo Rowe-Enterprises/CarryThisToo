@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" media="screen,projection" />
+    <!-- <link type="text/css" rel="stylesheet" href="css/font.css"  media="screen,projection"/> -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,600,700,900" rel="stylesheet">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#bf0a30">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#bf0a30">
+
+
+    <title>Carry This Too</title>
+    <meta name="description" content="CARRY THIS TOO&trade; is your complete concealed and carry mobile application guide.">
+</head>
+
+<body>
+    <div id="relativeOffset">
+        <div class="square-3 el"></div>
+        <div class="square-2 el"></div>
+        <div class="square-1 el"></div>
+    </div>
+    <section class="main">
+        <section class="nav">
+            <div class="navbar-fixed">
+                <nav class="white">
+                    <div class="nav-wrapper hide-on-med-and-down padding-left-24 padding-right-24">
+                        <img class="nav-logo brand-logo" style="height: 48px;" src="assets/CTT logo.svg">
+                        <ul class="right hide-on-med-and-down">
+                            <li>
+                                <a href="index.html" class="nav-links bold-700">HOME</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html" class="nav-links bold-700">PRICING</a>
+                            </li>
+                            <li class="active">
+                                <a href="contact.html" class="nav-links bold-700 red-text">CONTACT</a>
+                            </li>
+                            <li>
+                                <a href="login.html" class="btn btn-round-nav z-depth-0 margin-left-24 margin-right-24">LOGIN</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav-wrapper valign-wrapper hide-on-large-only">
+                        <img class="nav-logo-mobile brand-logo" src="assets/CTT logo.svg">
+                        <a href="#home" data-target="mobile-demo" class="sidenav-trigger red-text">
+                            <i class="material-icons">menu</i>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+
+            <ul class="sidenav center" id="mobile-demo">
+                <li>
+                    <img class="responsive-img" src="assets/footer_image.png">
+                </li>
+                <li>
+                    <a href="index.html" class="nav-links bold-700">HOME</a>
+                </li>
+                <li>
+                    <a href="pricing.html" class="sidenav-close nav-links bold-700">PRICING</a>
+                </li>
+                <li class="active auto-close">
+                    <a href="contact.html" class="sidenav-close nav-links bold-700 red-text">CONTACT</a>
+                </li>
+                <li>
+                    <a href="login.html" class="btn-round-nav red-text z-depth-0 margin-left-24 margin-right-24">LOGIN</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section design container row valign-wrapper">
+            <div class="col l8 offset-l2 card">
+                <div class="card-content margin-0 padding-24">
+                    <form id="phone-form" class="center">
+                        <h5 class="red-text bold-700">Login</h5>
+                        <p class="left-align">Please enter your Phone Number</p>
+                        <input id="mobile_no" type="tel" class="margin-bottom-12 input" placeholder="Mobile Number">
+                        <a id="verify" href="#" class="btn btn-round btn-shadow-red">VERIFY</a>
+                    </form>
+
+                    <form id="password-form" class="center">
+                        <h5 class="red-text bold-700">Login</h5>
+                        <p class="left-align">Please enter your password</p>
+                        <input id="password" type="password" class="margin-bottom-12 input" placeholder="Password">
+                        <a href="#" class="red-text row left-align">Forgot Password?</a>
+                        <a id="login" href="#" class="row btn btn-round btn-shadow-red">LOGIN</a>
+                    </form>
+
+                    <div id="contact-form" class="center">
+                        <h5 class="red-text bold-700">Contact Form</h5>
+                        
+                        <br>
+                        <form id="contact-form" action="https://script.google.com/macros/s/AKfycbzRI55Vvxq6wFTdwF7XaNm8p3DW1BKxUHBiROFG/exec" method="POST">
+                            <div class="row margin-0">
+                                <input name="name" class="input col l12 margin-bottom-24" placeholder="Your Name">
+                                <input name="email" class="input col l12 margin-bottom-24" placeholder="Email">
+                                <p id="email-invalid" style="display: none;" class="red-text right">Invalid Email</p>
+                                <!-- <input name="subject" class="input col l12 margin-bottom-24" placeholder="Subject"> -->
+                                <div class="input-field col s12 padding-0">
+                                    <!-- <label class="left">Materialize Select</label> -->
+                                    <select id="subject">
+                                        <option value="" disabled selected>Choose your Subject</option>
+                                        <option value="content">App Content General</option>
+                                        <option value="app-issues">App Technical Issues</option>
+                                        <option value="cancellation">Cancellations/Refund</option>
+                                        <option value="feedback">General Feedback</option>
+                                        <option value="account">My G.C.E. Account</option>
+                                        <option value="privacy">Privacy Concerns</option>
+                                    </select>
+                                </div>
+
+                                <div id="cancellation_box">
+                                    <div class="input-field col s12 padding-0">
+                                        <!-- <label class="left">Materialize Select</label> -->
+                                        <select id="reason">
+                                            <option value="" disabled selected>Choose your Reason</option>
+                                            <option value="no_longer">No longer Carry</option>
+                                            <option value="resource">Using Another Resource</option>
+                                            <option value="not_working">App Not Working</option>
+                                        </select>
+                                    </div>
+
+                                </div>
+                                <div id="reason_box">
+                                    <input id="resource" name="resource" class="input col l12 margin-bottom-24" placeholder="Please mention the other resource">
+                                </div>
+
+                                <textarea id="message" name="message" class="col l12 margin-0" maxlength="1000" wrap="off" placeholder="Your Message"></textarea>
+                                <p id="len_text" class="red-text right">1000/1000</p>
+                            </div>
+                            <input type="submit" id="send_button" class="btn btn-round btn-small grey lighten-4 grey-text text-darken-4" value="send">
+                        </form>
+                        <br>
+                        <p class="left-align">Unsure? Have Doubts? Concerns? Get in Touch with Us! Due to the share volume of inquires we get there
+                            may be a delayed response. You are still our priority. Really, you are! We will recoil back to
+                            you as soon as we can. Choose the appropriate subject line. Aim. Fire-away. Keep your safety
+                            off for this one! You may also view our help section to find many of the answers to our frequently
+                            asked questions
+                            <a href="help.html#faq" class="red-text">Here!</a>
+                        </p>
+                        <br>
+                        <h5 id="response-text" style="display: none;">Thanks for contacting us. We'll respond back soon!</h5>
+                        <p class="red-text left-align">Carry This Too, LLC<br><span class="bold">Corporate Mailing Address:<br></span>1846 E. Innovation Drive. Suite 100, Oro Valley, AZ, 85755, USA</p>
+                        <p class="left-align">OR</p>
+                        <p class="red-text left-align">P.O. Box 1514, Sun City, AZ, 85372, USA<br>Corporate Phone: 480.686.3681<br>Toll-Free Number: 800.000.0000</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="footer section scrollspy">
+            <footer class="page-footer grey darken-4">
+                <div class="container footer-main">
+                    <div class="row">
+                        <img class="col l4 offset-l4 responsive-img" src="assets/footer_image.png">
+                        <marquee class="col l10 offset-l1 bold-700">Send us a message on our Contact Form or give us call toll-free at
+                                <a href=”tel:123-123-4567″ class="red-text">800-000-0000</a> for any privacy concerns. We do not sell your information!</marquee>
+                    </div>
+                    <div class="row">
+                        <div class="col l3 s12">
+                        <h6 class="white-text">Legal</h6>
+                            <ul>
+                                <li>
+                                    <a class="grey-text text-lighten-3" href="#!">User Terms</a>
+                                </li>
+                                <li>
+                                    <a class="grey-text text-lighten-3" href="#!">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a class="grey-text text-lighten-3" href="user_guidelines.html">User Guidelines</a>
+                                </li>
+                                <li>
+                                    <a class="grey-text text-lighten-3" href="#">Location Services Statement</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l3 s12">
+                            <h6 class="white-text">Payment Information</h6>
+                            <ul>
+                                <li>
+                                    <a class="grey-text text-lighten-3" href="pricing.html">Pricing</a>
+                                </li>
+                                <li>
+                                    <a class="grey-text text-lighten-3" href="payment_information.html#freemium">Freemium Service</a>
+                                </li>
+                                <li>
+                                    <a class="grey-text text-lighten-3" href="payment_information.html#premium">Premium Service</a>
+                                </li>
+                                <li>
+                                    <a class="grey-text text-lighten-3" href="payment_information.html#free_trial">Free Trials</a>
+                                </li>
+                                <li>
+                                    <a class="grey-text text-lighten-3" href="payment_information.html#change_payment">Change Payment Details</a>
+                                </li>
+                                <li>
+                                    <a class="grey-text text-lighten-3" href="payment_information.html#refund_policy">Refund Policy</a>
+                                </li>
+                                <li>
+                                    <a class="grey-text text-lighten-3" href="payment_information.html#faq">FAQ</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l3 s12">
+                            <h6 class="white-text">Gun Connect Exchange</h6>
+                            <ul>
+                                <li>
+                                    <a class="grey-text text-lighten-3" href="#!">Access Exchange</a>
+                                </li>
+                                <li>
+                                    <a class="grey-text text-lighten-3" href="#!">Using Exchange</a>
+                                </li>
+                                <li>
+                                    <a class="grey-text text-lighten-3" href="#!">User Guidelines</a>
+                                </li>
+                                <li>
+                                    <a class="grey-text text-lighten-3" href="#!">FAQ</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l3 s12">
+                            <h6 class="white-text">Help</h6>
+                            <ul>
+                                <li>
+                                    <a class="grey-text text-lighten-3" href="help.html#download">Download App</a>
+                                </li>
+                                <li>
+                                    <a class="grey-text text-lighten-3" href="help.html#using">Using Carry This Too</a>
+                                </li>
+                                <li>
+                                    <a class="grey-text text-lighten-3" href="help.html#technical">Technical Requirements</a>
+                                </li>
+                                <li>
+                                    <a class="grey-text text-lighten-3" href="help.html#app">General FAQ</a>
+                                </li>
+                                <li>
+                                    <a class="grey-text text-lighten-3" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- <div class="row">
+                        <div class="col l6">
+                            <h5>Contact Us</h5>
+                            <form id="contact-form" action="https://script.google.com/macros/s/AKfycbzRI55Vvxq6wFTdwF7XaNm8p3DW1BKxUHBiROFG/exec" method="POST">
+                                <div class="row margin-0">
+                                    <input name="name" class="input col l12 margin-bottom-24" placeholder="Your Name">
+                                    <input name="email" class="input col l12 margin-bottom-24" placeholder="Email">
+                                    <p id="email-invalid" style="display: none;" class="red-text right">Invalid Email</p>
+                                    <input name="subject" class="input col l12 margin-bottom-24" placeholder="Subject">
+                                    <textarea id="message" name="message" class="col l12 margin-0" maxlength="1000" wrap="off" placeholder="Your Message"></textarea>
+                                    <p id="len_text" class="red-text right">1000/1000</p>
+                                </div>
+                                <input type="submit" id="button" class="btn btn-round btn-small grey lighten-4 grey-text text-darken-4" value="send">
+                            </form>
+                            <h5 id="response-text" style="display: none;">Thanks for contacting us. We'll respond back soon!</h5>
+                            <p class="red-text">
+                                <span class="bold">Address:</span> 1846 E. Innovation Drive. Suite 100, Oro Valley, AZ, USA</p>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="footer-copyright">
+                    <div class="container row hide-on-large-only">
+                        <span class="red-text-accent col s12 font-12 row">Carry This Too&trade;
+                            <span class="font-12 white-text">&copy; 2017-2018 All Rights Reserved</span>
+                        </span>
+                        <span class="grey-text text-lighten-4 col s12 font-12 row">Designed and Developed by
+                            <a class="red-text-accent" href="http://www.guileeq.com/"> GuileEQ Inc.</a>
+                        </span>
+                    </div>
+                    <div class="container hide-on-med-and-down">
+                        <span class="red-text-accent">Carry This Too&trade;
+                            <span class="white-text">&copy; 2017-2018 All Rights Reserved</span>
+                        </span>
+                        <span class="grey-text text-lighten-4 right">Designed and Developed by
+                            <a class="red-text-accent" href="http://www.guileeq.com/"> GuileEQ Inc.</a>
+                        </span>
+                    </div>
+                </div>
+            </footer>
+
+        </section>
+
+
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/anime.min.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/autosize.js"></script>
+        <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
+        <script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
+        <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
